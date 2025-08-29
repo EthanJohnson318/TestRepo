@@ -5,7 +5,7 @@
 
 ## Part 1 - GitHub Profile
 
-1. [EthanJohnson318's GitHub Profile](FIXTHISURL-https://github.com/EthanJohnson318)
+1. [EthanJohnson318's GitHub Profile](https://github.com/EthanJohnson318)
 
 ## Part 2 - Research
 
@@ -39,15 +39,15 @@ My Command Line Shell is: Bash
 4. Go into `DirA`: cd DirA
 5. Go into `Dir B` from `DirA`: cd ../"Dir B"
 6. Return to your user's home directory: cd .. (cd ~ would unmount me from my home directory in WSL)
-7. Create a file named `test.txt`: vim test.txt
+7. Create a file named `test.txt`: touch test.txt
 8. Move the file named `test.txt` into `DirA`: mv test.txt DirA
 9. Contents of `test.txt`:
 ```
 Hello World!
 ```
-10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp test.txt copy.txt
-11. View the contents of `DirA`: ls
-12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp test.txt ../"Dir B"/fodder.txt
+10. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp DirA/test.txt DirA/copy.txt
+11. View the contents of `DirA`: ls DirA
+12. Make a copy of `test.txt` in `Dir B` named `fodder.txt`: cp DirA/test.txt "Dir B"/fodder.txt
 13. Delete / remove both `fodder.txt` AND `Dir B`: rm -r ../"Dir B" (Removes directories and their contents recursively, which includes the directory "Dir B" and the fodder.txt file)
 
 ## Citations
