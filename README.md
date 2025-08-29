@@ -17,9 +17,9 @@
 | mkdir   | mkdir       | Creates a new directory as a child of the working directory       |
 | Set-Location | cd     | Changes working directory       |
 | New-Item | touch      | Creates a new file in the working directory       |
-| Move-Item | mv        | Moves a file from one directory to another       |
-| Copy-Item | cp        | Makes a copy of a file into another directory       |
-| Remove-Item | rm      | Removes a file from the working directory       |
+| Move-Item | mv        | Moves a file or directory to a destination       |
+| Copy-Item | cp        | Makes a copy of a file or directory into a destination       |
+| Remove-Item | rm      | Removes a file or directory from a destination      |
 | notepad.exe | vim     | Opens a text editor       |
 
 ## Part 3 - Command Line Navigation
